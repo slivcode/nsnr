@@ -1,0 +1,62 @@
+{
+  "name": "nsnr",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "bin": {
+    "nr": "lib/cli/nr.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "echo": "nr",
+    "build": "nr",
+    "clean": "nr",
+    "test": "nr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slivcode/nsnr.git"
+  },
+  "keywords": [
+    "cli",
+    "npm",
+    "script",
+    "run",
+    "node"
+  ],
+  "author": {
+    "name": "sliv",
+    "email": "sliv.mbp@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slivcode/nsnr/issues"
+  },
+  "homepage": "https://github.com/slivcode/nsnr#readme",
+  "dependencies": {
+    "@sliv/types-read-pkg-up": "^0.0.2",
+    "@types/chalk": "^0.4.31",
+    "@types/fs-extra-promise": "^1.0.2",
+    "@types/inquirer": "^0.0.35",
+    "@types/node-emoji": "^1.4.0",
+    "@types/optimist": "^0.0.29",
+    "@types/ramda": "^0.24.0",
+    "@types/yargs": "^6.6.0",
+    "chalk": "^1.1.3",
+    "err-result-pair": "0.0.4",
+    "fs-extra-promise": "^1.0.1",
+    "inquirer": "^3.1.1",
+    "node-emoji": "^1.5.1",
+    "optimist": "^0.6.1",
+    "ramda": "^0.24.1",
+    "ramda-match": "^0.0.1",
+    "ramda-over-path": "^0.0.2",
+    "read-pkg-up": "^2.0.0",
+    "spawn-command-promise": "^0.0.1",
+    "yargs": "^8.0.2"
+  },
+  "readme": "ERROR: No README data found!"
+}
